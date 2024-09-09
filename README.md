@@ -28,7 +28,7 @@ These plots help in determining appropriate thresholds for cell filtering.
 ![vp](https://github.com/ndomah001/scRNA-Seq-Analysis/blob/main/1.%20violin%20plot.png)
 
 ### Feature-Count Correlation Plot
-This scatter plot shows the relationship between the number of unique genes (nFeature_RNA) and the total RNA count (nCount_RNA) per cell.
+This scatter plot shows the relationship between the number of unique genes (`nFeature_RNA`) and the total RNA count (`nCount_RNA`) per cell.
 
 Interpretation:
 - There's a strong positive correlation (0.93) between gene count and RNA count.
@@ -42,19 +42,19 @@ This plot shows the average expression and variability of genes across cells.
 
 Interpretation:
 - Red points represent the 2,000 most variable genes.
-- Several highly variable genes are labeled, including IGHG1, IGKC, and IGHA1, which are immunoglobulin genes.
+- Several highly variable genes are labeled, including `IGHG1`, `IGKC`, and `IGHA1`, which are immunoglobulin genes.
 - The most variable genes tend to have moderate to high average expression.
 - This plot helps identify genes that are most informative for distinguishing cell types or states.
 
 ![cfp](https://github.com/ndomah001/scRNA-Seq-Analysis/blob/main/3%20avg%20expression%20x%20standardized%20variance.png)
 
 ### PCA Heatmap
-This heatmap shows the top genes contributing to the first principal component (PC_1).
+This heatmap shows the top genes contributing to the first principal component (`PC_1`).
 
 Interpretation:
-- Genes like FTL, SPP1, and APOE are strongly associated with PC_1.
+- Genes like `FTL`, `SPP1`, and `APOE` are strongly associated with `PC_1`.
 - There's a clear pattern of genes that are either highly expressed (yellow) or lowly expressed (purple) in groups of cells.
-- This suggests that PC_1 is capturing a major axis of variation in the dataset, possibly representing different cell types or states.
+- This suggests that `PC_1` is capturing a major axis of variation in the dataset, possibly representing different cell types or states.
 
 ![pcah](https://github.com/ndomah001/scRNA-Seq-Analysis/blob/main/4.%20PCA%20heatmap.png)
 
@@ -69,7 +69,7 @@ Interpretation:
 ![ep](https://github.com/ndomah001/scRNA-Seq-Analysis/blob/main/5.%20PC%20x%20std.png)
 
 ### PCA Plot
-This plot shows the first two principal components (PC_1 and PC_2) of the single-cell data, colored by the cluster assignments at a resolution of 0.5. The different colors represent the 13 distinct cell clusters identified in the data.
+This plot shows the first two principal components (`PC_1` and `PC_2`) of the single-cell data, colored by the cluster assignments at a resolution of 0.5. The different colors represent the 13 distinct cell clusters identified in the data.
 
 Interpretation:
 - There is a clear separation between the cell clusters, suggesting that the principal component analysis has effectively captured the major sources of heterogeneity in the NSCLC dataset.

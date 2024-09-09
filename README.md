@@ -86,3 +86,5 @@ Interpretation:
 - This could indicate the presence of intermediate or transitional cell types within the NSCLC sample.
 
 ![umap](https://github.com/ndomah001/scRNA-Seq-Analysis/blob/main/7.%20res0.5%20clusters.png)
+
+**These findings lay the groundwork for further analyses, such as differential gene expression analysis and cell type annotation, to gain deeper insights into the cellular composition and functional states within the NSCLC tumor microenvironment.**
